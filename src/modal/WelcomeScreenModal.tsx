@@ -39,7 +39,7 @@ export const NeoWelcomeScreenModal = ({
     <div>
       <Dialog size='small' open={welcomeScreenOpen} aria-labelledby='form-dialog-title' disableCloseButton>
         <Dialog.Header id='form-dialog-title'>
-          NeoDash - Neo4j Dashboard Builder
+          PERURI Graph Analytics
           <BoltIconSolid className='icon-base' color='gold' style={{ float: 'right' }} />
         </Dialog.Header>
         <Dialog.Content>
@@ -120,13 +120,13 @@ export const NeoWelcomeScreenModal = ({
           <Tooltip title='View a gallery of live examples.' aria-label='demo' disableInteractive>
             <Button
               target='_blank'
-              href='https://neodash-gallery.graphapp.io'
+              href='https://www.peruri.co.id/produk/digital-solution/digital-graph'
               style={{ marginTop: '10px', width: '100%' }}
               fill='outlined'
               color='neutral'
               size='large'
             >
-              Try a Demo
+              PERURI Graph Analytics
             </Button>
           </Tooltip>
 
@@ -153,13 +153,13 @@ export const NeoWelcomeScreenModal = ({
           }}
         >
           <div className='n-text-neutral-text-weakest'>
-            NeoDash is a tool for building standalone Neo4j dashboards. Need advice on building an integrated solution?{' '}
+            PERURI Graph Analytics adalah solusi dalam membuat strategi privasi dan keamanan siber yang komprehensif sesuai dengan regulasi.{' '}
             <TextLink
-              href='https://neo4j.com/professional-services/'
+              href='https://www.peruri.co.id/produk/digital-solution/'
               className='n-text-neutral-text-inverse'
               externalLink
             >
-              Get in touch
+              Solusi Digital lainnya
             </TextLink>
             !
           </div>
