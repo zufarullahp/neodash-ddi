@@ -40,7 +40,7 @@ export const NeoWelcomeScreenModal = ({
       <Dialog size='small' open={welcomeScreenOpen} aria-labelledby='form-dialog-title' disableCloseButton>
         <Dialog.Header id='form-dialog-title'>
           PERURI Graph Analytics
-          <BoltIconSolid className='icon-base' color='gold' style={{ float: 'right' }} />
+          {/* <BoltIconSolid className='icon-base' color='gold' style={{ float: 'right' }} /> */}
         </Dialog.Header>
         <Dialog.Content>
           <Tooltip title='Connect to Neo4j and create a new dashboard.' aria-label='create' disableInteractive>

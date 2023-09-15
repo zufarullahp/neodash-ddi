@@ -11,9 +11,6 @@ export const NeoDashboardPlaceholder = () => {
           <div className='n-min-w-full'>
             <div className='n-flex n-justify-between n-h-16 n-items-center n-py-6 md:n-justify-start md:n-space-x-10 n-mx-4'>
               <NeoDashboardHeaderLogo />
-              <nav className='n-items-center n-justify-center n-flex n-flex-1 n-w-full'>
-                NeoDash <BoltIconSolid className='icon-base' color='gold' />
-              </nav>
               <div className='sm:n-flex n-items-center n-justify-end md:n-flex-1 lg:n-w-0 n-gap-6'></div>
             </div>
           </div>
